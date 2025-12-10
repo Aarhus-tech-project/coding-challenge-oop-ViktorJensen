@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "j2ySzmDfTdE=",
+  "success": true,
+  "projectFilePath": "/Users/viktorjensen/dev/coding-challenge-oop-ViktorJensen/astroids.csproj",
+  "expectedPackageFiles": [
+    "/Users/viktorjensen/.nuget/packages/raylib-cs/5.0.0/raylib-cs.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

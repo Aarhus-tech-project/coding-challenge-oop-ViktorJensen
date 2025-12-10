@@ -1,0 +1,4 @@
+interface ICanExplode
+{
+    void CanExplode();
+}
