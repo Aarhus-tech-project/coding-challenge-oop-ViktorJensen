@@ -1,4 +1,4 @@
-public class Astroid : GameEntity,ICanExplode, ITakeDamage
+public class Astroid : GameEntity, ICanExplode, ITakeDamage
 {
     public override void GameEntityUpdate()
     {
