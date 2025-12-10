@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/viktorjensen/dev/coding-challenge-oop-ViktorJensen/astroids.csproj": {}
+    "C:\\dev\\oop-astroids\\coding-challenge-oop-ViktorJensen\\astroids.csproj": {}
   },
   "projects": {
-    "/Users/viktorjensen/dev/coding-challenge-oop-ViktorJensen/astroids.csproj": {
+    "C:\\dev\\oop-astroids\\coding-challenge-oop-ViktorJensen\\astroids.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/viktorjensen/dev/coding-challenge-oop-ViktorJensen/astroids.csproj",
+        "projectUniqueName": "C:\\dev\\oop-astroids\\coding-challenge-oop-ViktorJensen\\astroids.csproj",
         "projectName": "astroids",
-        "projectPath": "/Users/viktorjensen/dev/coding-challenge-oop-ViktorJensen/astroids.csproj",
-        "packagesPath": "/Users/viktorjensen/.nuget/packages/",
-        "outputPath": "/Users/viktorjensen/dev/coding-challenge-oop-ViktorJensen/obj/",
+        "projectPath": "C:\\dev\\oop-astroids\\coding-challenge-oop-ViktorJensen\\astroids.csproj",
+        "packagesPath": "C:\\Users\\moelb\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\oop-astroids\\coding-challenge-oop-ViktorJensen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/viktorjensen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\moelb\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

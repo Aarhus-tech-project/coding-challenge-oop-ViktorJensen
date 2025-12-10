@@ -19,7 +19,6 @@ public abstract class GameEntity : ICanExplode
     }
     public virtual void GameEntityUpdate()
     {
-        Console.WriteLine($"{Name} Parts: ");
         UpdateParts();
     }
     public void CanExplode()
