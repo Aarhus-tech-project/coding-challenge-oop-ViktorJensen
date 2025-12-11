@@ -1,0 +1,4 @@
+interface IGiveDamage
+{
+    void GiveDamage();
+}

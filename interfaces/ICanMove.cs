@@ -1,0 +1,4 @@
+interface ICanMove
+{
+    void CanMove();
+}

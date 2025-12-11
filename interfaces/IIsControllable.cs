@@ -1,0 +1,4 @@
+interface IIsControllable
+{
+    void IsControllable();
+}
