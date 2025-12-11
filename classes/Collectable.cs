@@ -1,8 +1,8 @@
-public class Collectable : GameEntity, ICanExplode
+public class Collectable : GameEntity
 {
     public Collectable()
     {
-        Name = "Shield";
+        Name = "PowerUp";
         Health = 1;
         Position = (4, 6);
     }

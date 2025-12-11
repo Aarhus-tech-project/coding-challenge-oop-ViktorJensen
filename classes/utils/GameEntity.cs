@@ -1,4 +1,4 @@
-public abstract class GameEntity : ICanExplode
+public abstract class GameEntity : ICanExplode, ITakeDamage
 {
     public (float X, float Y) Position { get; set;}
     public int Health { get; set;}
@@ -6,11 +6,11 @@ public abstract class GameEntity : ICanExplode
 
     public List<string> Parts { get; private set; } = new List<string>();
 
-    public void AddPart(string partName)
+    protected void AddPart(string partName)
     {
         Parts.Add(partName);
     }
-        private void UpdateParts()
+    protected void UpdateParts()
     {
         foreach (var part in Parts)
         {
@@ -27,5 +27,8 @@ public abstract class GameEntity : ICanExplode
         {
             Console.WriteLine($"{Name} Exploded!");
         }
+    }
+    public void TakeDamage()
+    {
     }
 }

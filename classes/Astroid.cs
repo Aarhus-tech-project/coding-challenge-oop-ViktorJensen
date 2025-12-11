@@ -1,4 +1,4 @@
-public class Astroid : GameEntity, ICanExplode, ITakeDamage
+public class Astroid : GameEntity, IGiveDamage, ICanMove
 {
     public Astroid()
     {
@@ -11,7 +11,11 @@ public class Astroid : GameEntity, ICanExplode, ITakeDamage
         Console.WriteLine($"{Name} drifts through space...");
         base.GameEntityUpdate();
     }
-    public void TakeDamage()
+    public void GiveDamage()
+    {
+        
+    }
+    public void CanMove()
     {
         
     }

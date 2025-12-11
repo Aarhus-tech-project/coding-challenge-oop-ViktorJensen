@@ -1,4 +1,4 @@
-public class SpaceShip : GameEntity, IIsControllable
+public class SpaceShip : GameEntity, IIsControllable, IGiveDamage
 {
     public SpaceShip()
     {
@@ -17,5 +17,9 @@ public class SpaceShip : GameEntity, IIsControllable
     }
     public void IsControllable()
     {
+    }
+    public void GiveDamage()
+    {
+        
     }
 }
