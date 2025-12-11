@@ -8,7 +8,7 @@ public class Collectable : GameEntity, ICanExplode
     }
     public override void GameEntityUpdate()
     {
-        Console.WriteLine($"PowerUp {Name} shines!");
+        Console.WriteLine($"{Name} Glows!");
         base.GameEntityUpdate();
     }
 }

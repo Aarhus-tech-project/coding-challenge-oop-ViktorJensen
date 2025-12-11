@@ -12,7 +12,7 @@ public class Alien : GameEntity
     }
     public override void GameEntityUpdate()
     {
-        Console.WriteLine($"Alien {Name} hovers menacingly!");
+        Console.WriteLine($"{Name} hovers menacingly!");
         base.GameEntityUpdate();
     }
 }

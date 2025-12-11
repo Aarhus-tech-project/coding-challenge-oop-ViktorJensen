@@ -69,19 +69,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\moelb\\.nuget\\packages\\": {}
+    "/Users/viktorjensen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\oop-astroids\\coding-challenge-oop-ViktorJensen\\astroids.csproj",
+      "projectUniqueName": "/Users/viktorjensen/dev/coding-challenge-oop-ViktorJensen/astroids.csproj",
       "projectName": "astroids",
-      "projectPath": "C:\\dev\\oop-astroids\\coding-challenge-oop-ViktorJensen\\astroids.csproj",
-      "packagesPath": "C:\\Users\\moelb\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\oop-astroids\\coding-challenge-oop-ViktorJensen\\obj\\",
+      "projectPath": "/Users/viktorjensen/dev/coding-challenge-oop-ViktorJensen/astroids.csproj",
+      "packagesPath": "/Users/viktorjensen/.nuget/packages/",
+      "outputPath": "/Users/viktorjensen/dev/coding-challenge-oop-ViktorJensen/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\moelb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/viktorjensen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -132,7 +132,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

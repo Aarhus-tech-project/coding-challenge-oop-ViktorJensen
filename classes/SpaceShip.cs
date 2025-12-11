@@ -12,7 +12,7 @@ public class SpaceShip : GameEntity, IIsControllable
     }
     public override void GameEntityUpdate()
     {
-        Console.WriteLine($"SpaceShip {Name} Flies around!");
+        Console.WriteLine($"{Name} Flies around!");
         base.GameEntityUpdate();
     }
     public void IsControllable()
